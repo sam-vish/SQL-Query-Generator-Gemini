@@ -1,11 +1,11 @@
 # SQL Query Generator
 
-This is a web application built using Streamlit, enabling users to generate SQL queries from plain English instructions. It utilizes a custom AI library (`genai`) to interpret user input and provide the corresponding SQL query along with the expected output and an explanation of its function.
+This is a web application built using Streamlit, enabling users to generate SQL queries from plain English instructions. It utilizes a custom AI library (`Gemini`) to interpret user input and provide the corresponding SQL query along with the expected output and an explanation of its function.
 
 ## Tech Stack
 
 - **Streamlit**: Framework for building the web interface.
-- **Custom AI Library (`genai`)**: Interfaces with Google's Generative AI model for SQL query generation.
+- **Custom AI Library (`Gemini`)**: Interfaces with Google's Generative AI model for SQL query generation.
 - **dotenv**: Handles sensitive information by loading from a `.env` file.
 
 ## Functionality
